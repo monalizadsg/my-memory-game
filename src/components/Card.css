@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  height: 200px;
+  width: 200px;
+}
+
+.front {
+  padding: 20px;
+  background-color: #f26722;
+}
+
+.back {
+  height: 240px;
+  width: 240px;
+}
