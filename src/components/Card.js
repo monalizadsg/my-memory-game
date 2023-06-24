@@ -1,8 +1,10 @@
 import "./Card.css";
 
-function Card({ card, handleChoice, flipped }) {
+function Card({ card, handleChoice, flipped, disabled }) {
   const handleClick = () => {
-    handleChoice(card);
+    if (!disabled) {
+      handleChoice(card);
+    }
   };
   return (
     <div className='card' key={card.id}>
