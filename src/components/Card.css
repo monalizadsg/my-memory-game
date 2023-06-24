@@ -20,3 +20,12 @@ img {
   height: 240px;
   width: 240px;
 }
+
+.card .front {
+  transform: rotateY(90deg);
+  position: absolute;
+}
+
+.flipped .front {
+  transform: rotateY(0deg);
+}
